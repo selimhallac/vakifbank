@@ -19,7 +19,7 @@ Class Vakifbank
     
     
     
-    public function hesap_hareketleri($tarih1, $tarih2)
+    public function hesap_hareketleri(i$tarih1, $tarih2,$accountno)
     {
         
         $curl = curl_init();
@@ -44,7 +44,7 @@ Class Vakifbank
                     <peak1:SorguBaslangicTarihi>'.$tarih1.'</peak1:SorguBaslangicTarihi>
                     <peak1:SorguBitisTarihi>'.$tarih2.'</peak1:SorguBitisTarihi>
                     <!--Optional:-->
-                    <peak1:HesapNo></peak1:HesapNo>
+                    <peak1:HesapNo>'.$accountno.'</peak1:HesapNo>
                     <!--Optional:-->
                     <peak1:HareketTipi xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
                     <!--Optional:-->
