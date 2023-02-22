@@ -1,6 +1,6 @@
 {
     "name": "phpdev/vakifbank",
-    "description": "Vakıf Bank Banka Entegrasyonu Hesap Hareketleri",
+    "description": "Vakıf Bank Web Ekstre Banka Entegrasyon Hesap Hareketleri",
     "type": "library",
     "autoload": {
         "psr-4": {
