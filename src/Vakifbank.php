@@ -10,11 +10,11 @@ Class Vakifbank
     public $pasword = "";
     public $customerno = "";
     
-    function __construct($username, $password, $customerno)
+    function __construct($username, $password, $customer_no)
     {
         $this->username       = $username;
         $this->password       = $password;
-        $this->customerno     = $customerno;
+        $this->customerno     = $customer_no;
     }
     
     
