@@ -19,7 +19,7 @@ Class Vakifbank
     
     
     
-    public function hesap_hareketleri(i$tarih1, $tarih2,$accountno)
+    public function hesap_hareketleri($tarih1, $tarih2,$accountno)
     {
         
         $curl = curl_init();
