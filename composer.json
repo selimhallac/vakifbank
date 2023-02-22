@@ -1,0 +1,17 @@
+{
+    "name": "phpdev/vakifbank",
+    "description": "Vakıf Bank Banka Entegrasyonu Hesap Hareketleri",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+               "Phpdev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Selim Hallaç",
+            "email": "selimhallac@gmail.com"
+        }
+    ],
+    "require": {}
+}
